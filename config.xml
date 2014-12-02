@@ -28,6 +28,9 @@ Selección de cuentos ganadores en el concurso “Mi cuento fantástico” 2014,
 
 <!-- to enable individual permissions use the following examples -->
 <feature name="http://api.phonegap.com/1.0/media"/>
+<feature name="http://api.phonegap.com/1.0/network"/>
+<feature name="http://api.phonegap.com/1.0/file"/>
+
 
 <access origin="*"/>
 
