@@ -148,7 +148,7 @@ $(document).ready(function() {
 		$("head").append('<style type="text/css" media="screen"> #general { height:666px; margin:-380px 0px 0px 0px; padding:80px 0px 0px 0px; } .pantallas { height:630px; } <style/>');
 	}
 	else if (android > -1) {
-		alert('android 16');
+		//alert('android 16');
 		
 		//$("head").append('<meta name="viewport" content="width=1200px, target-densitydpi=device-dpi" />');
 		if ( screen.width > 1100 ) {
@@ -165,7 +165,8 @@ $(document).ready(function() {
 			$("head").append('<meta name="viewport" content="initial-scale=1.05, maximum-scale=1.05, minimum-scale=1.05, user-scalable=yes, height=device-height, width=device-width, target-densityDpi=device-dpi" />');
 		} else if ( (screen.width < 800) && (screen.width >= 700) ) {
 			alert('< 800 >= 700');
-			$("head").append('<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=yes, height=device-height, width=device-width, target-densityDpi=device-dpi" />');
+			//$("head").append('<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=yes, height=device-height, width=device-width, target-densityDpi=device-dpi" />');
+			$("head").append('<meta name="viewport" content="initial-scale=1.1, maximum-scale=1.1, minimum-scale=1.1, user-scalable=yes, height=device-height, width=device-width, target-densityDpi=device-dpi" />');
 		} else if ( (screen.width < 700) && (screen.width >= 600) ) {
 			alert('< 700 >= 600');
 			$("head").append('<meta name="viewport" content="initial-scale=.95, maximum-scale=.95, minimum-scale=.95, user-scalable=yes, height=device-height, width=device-width, target-densityDpi=device-dpi" />');
