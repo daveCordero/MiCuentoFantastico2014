@@ -73,8 +73,12 @@ body {
 	/*background-color:#F3F0E5;*/
 	background-repeat:no-repeat;
 	background-attachment:fixed;
-	background-size:cover;
 	background-position:bottom;
+	
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
 	
 	margin: 0px; /* for IE6 / IE7 */
 	padding:0px;

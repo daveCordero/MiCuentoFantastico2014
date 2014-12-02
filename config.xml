@@ -11,10 +11,10 @@
 <gap:splash src="phoneGap/MDPI_landscape.png"  gap:platform="android" gap:density="mdpi" />
 <gap:splash src="phoneGap/HDPI_landscape.png"  gap:platform="android" gap:density="hdpi" />
 <gap:splash src="phoneGap/XHDPI_landscape.png" gap:platform="android" gap:density="xhdpi" />
-<gap:splash src="phoneGap/LDPI_portrait.png"  gap:platform="android" gap:density="port-ldpi" />
-<gap:splash src="phoneGap/MDPI_portrait.png"  gap:platform="android" gap:density="port-mdpi" />
-<gap:splash src="phoneGap/HDPI_portrait.png"  gap:platform="android" gap:density="port-hdpi" />
-<gap:splash src="phoneGap/XHDPI_portrait.png" gap:platform="android" gap:density="port-xhdpi" />
+<gap:splash src="phoneGap/LDPI_portrait.png"   gap:platform="android" gap:density="port-ldpi" />
+<gap:splash src="phoneGap/MDPI_portrait.png"   gap:platform="android" gap:density="port-mdpi" />
+<gap:splash src="phoneGap/HDPI_portrait.png"   gap:platform="android" gap:density="port-hdpi" />
+<gap:splash src="phoneGap/XHDPI_portrait.png"  gap:platform="android" gap:density="port-xhdpi" />
 
 <gap:platform name="android" />
 
