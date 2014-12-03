@@ -665,7 +665,8 @@ $(document).ready(function() {
 					
 					if (android > -1) {//android webView necesita absolute url
 						//alert('android 16');
-						alert( urlAbsoluta + 'audio/' + audioCuento + '.' + audioFormato );
+						//alert( urlAbsoluta + 'audio/' + audioCuento + '.' + audioFormato );
+						alert('<source src="' + urlAbsoluta + 'audio/' + audioCuento + '.ogg' + ' " type="audio/ogg" />');
 						//$("#playerCuento").append('<source src="' + urlAbsoluta + 'audio/' + audioCuento + '.' + audioFormato +' " type="audio/' + audioFormato + '" />');
 						$("#playerCuento").append('<source src="' + urlAbsoluta + 'audio/' + audioCuento + '.ogg' + ' " type="audio/ogg" />');
 						$("#dialog7").append('<div align="center" style="line-height:14px !important;">Este audio requiere conexión a internet.</div>');
