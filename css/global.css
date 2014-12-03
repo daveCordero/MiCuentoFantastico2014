@@ -89,6 +89,7 @@ body {
 	background-repeat:repeat;
 	background-position:bottom right;
 	background-repeat:round;
+	background-color:#666;
 	
 	margin: 0px; /* for IE6 / IE7 */
 	padding:0px;
