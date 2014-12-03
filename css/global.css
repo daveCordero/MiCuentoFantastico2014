@@ -74,12 +74,13 @@ body {
 	background-repeat:no-repeat;
 	background-attachment:fixed;*/
 	background-repeat:repeat;
-	background-position:bottom;
+	background-position:center;
 	
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	background-size:cover;
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/post_bg.jpg', sizingMethod='scale')";
 	
 	margin: 0px; /* for IE6 / IE7 */
 	padding:0px;

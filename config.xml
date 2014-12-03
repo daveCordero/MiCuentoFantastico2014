@@ -23,8 +23,8 @@ Selección de cuentos ganadores en el concurso “Mi cuento fantástico” 2014,
 <preference name="target-device" value="universal" />
 <preference name="webviewbounce" value="true" />
 <preference name="exit-on-suspend" value="true" />
-<preference name="show-splash-screen-spinner" value="true" />
-<preference name="auto-hide-splash-screen" value=true />
+<preference name="show-splash-screen-spinner" value="false" />
+<preference name="auto-hide-splash-screen" value="true" />
 <preference name="SplashScreenDelay" value="10000" />
 <preference name="android-installLocation" value="auto" />
 
