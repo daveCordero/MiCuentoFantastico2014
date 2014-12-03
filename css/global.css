@@ -74,10 +74,10 @@ html {
 
 body {
 	/*background-color:#F3F0E5;
-	background-repeat:no-repeat;
-	background-attachment:fixed;*/
 	background-repeat:repeat;
-	background-position:center;
+	background-position:center;*/
+	background-repeat:no-repeat;
+	background-attachment:fixed;
 	
 	-webkit-background-size:cover;
 	-moz-background-size:cover;

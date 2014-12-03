@@ -19,6 +19,7 @@ Selección de cuentos ganadores en el concurso “Mi cuento fantástico” 2014,
 </description>
 
 <preference name="fullscreen" value="true" />
+<preference name="orientation" value="default" />
 <preference name="target-device" value="universal" />
 <preference name="webviewbounce" value="true" />
 <preference name="exit-on-suspend" value="true" />
