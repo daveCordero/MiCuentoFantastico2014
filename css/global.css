@@ -87,9 +87,11 @@ body {
 	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/post_bg.jpg', sizingMethod='scale')";*/
 	
 	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-position: left center;
+	background-repeat: repeat;
+	background-position: left bottom;
 	background-size: cover;
+	
+	background-color:#6CDBFF;
 	
 	margin: 0px; /* for IE6 / IE7 */
 	padding:0px;
