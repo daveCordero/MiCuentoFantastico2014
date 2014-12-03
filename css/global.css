@@ -86,7 +86,8 @@ body {
 	background-size:cover;
 	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/post_bg.jpg', sizingMethod='scale')";*/
 	
-	background-position:center;
+	background-repeat:repeat;
+	background-position:bottom right;
 	background-repeat:round;
 	
 	margin: 0px; /* for IE6 / IE7 */
