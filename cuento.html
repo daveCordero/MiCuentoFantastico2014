@@ -8,11 +8,11 @@
 
 <script language="javascript" type="text/javascript">
 //vars user agent para meta viewport scale
-var isiPhone 	   = navigator.userAgent.toLowerCase().indexOf("iphone");
-var isiPad   	   = navigator.userAgent.toLowerCase().indexOf("ipad");
-var isiPod   	   = navigator.userAgent.toLowerCase().indexOf("ipod");
+var isiPhone 	   = navigator.userAgent.toLowerCase().indexOf('iphone');
+var isiPad   	   = navigator.userAgent.toLowerCase().indexOf('ipad');
+var isiPod   	   = navigator.userAgent.toLowerCase().indexOf('ipod');
 var isSafari   	   = navigator.userAgent.toLowerCase().indexOf('safari');
-var android 	   = navigator.userAgent.toLowerCase().indexOf("android");
+var android 	   = navigator.userAgent.toLowerCase().indexOf('android');
 //fin vars user agent para meta viewport scale
 </script>
 
@@ -142,8 +142,8 @@ var audioFormato = '';
 //if iOS or MacOS
 if(isiPhone > -1 || isiPod > -1 || isiPad > -1 || isSafari > -1 ) {
 	audioFormato = 'mp3';
-} else if (android > -1) {
-	audioFormato = 'ogg';
+/*} else if (android > -1) {
+	audioFormato = 'ogg';*/
 } else {
 	audioFormato = 'ogg';
 }//fin if iOS or MacOS
@@ -664,10 +664,11 @@ $(document).ready(function() {
 					}//fin switch
 					
 					if (android > -1) {//android webView necesita absolute url
+						alert('audioFormato: ' + audioFormato);
 						//alert('android 16');
 						//alert( urlAbsoluta + 'audio/' + audioCuento + '.' + audioFormato );
 						//alert('<source src="' + urlAbsoluta + 'audio/' + audioCuento + '.ogg' + ' " type="audio/ogg" />');
-						alert('<source src="' + urlAbsoluta + 'audio/' + audioCuento + '.' + audioFormato +' " type="audio/' + audioFormato + '" />');
+						//alert('<source src="' + urlAbsoluta + 'audio/' + audioCuento + '.' + audioFormato +' " type="audio/' + audioFormato + '" />');
 						//$("#playerCuento").append('<source src="' + urlAbsoluta + 'audio/' + audioCuento + '.' + audioFormato +' " type="audio/' + audioFormato + '" />');
 						$("#playerCuento").append('<source src="' + urlAbsoluta + 'audio/' + audioCuento + '.ogg' + ' " type="audio/ogg" />');
 						$("#dialog7").append('<div align="center" style="line-height:14px !important;">Este audio requiere conexión a internet.</div>');
