@@ -12,6 +12,11 @@
 <gap:splash src="phoneGap/HDPI_landscape.png"  gap:platform="android" gap:density="hdpi" />
 <gap:splash src="phoneGap/XHDPI_landscape.png" gap:platform="android" gap:density="xhdpi" />
 
+<gap:splash src="phoneGap/portrait-HDPI.png" gap:platform="android" gap:density="xhdpi" />
+<gap:splash src="phoneGap/portrait-LDPI.png" gap:platform="android" gap:density="xhdpi" />
+<gap:splash src="phoneGap/portrait-MDPI.png" gap:platform="android" gap:density="xhdpi" />
+<gap:splash src="phoneGap/portrait-XHDPI.png" gap:platform="android" gap:density="xhdpi" />
+
 <gap:platform name="android" />
 
 <description>
