@@ -142,9 +142,10 @@ var audioFormato = '';
 //if iOS or MacOS
 if(isiPhone > -1 || isiPod > -1 || isiPad > -1 || isSafari > -1 ) {
 	audioFormato = 'mp3';
+} else if (android > -1) {
+	audioFormato = 'ogg';
 } else {
 	audioFormato = 'ogg';
-	//audioFormato = 'mp3';
 }//fin if iOS or MacOS
 
 var urlAbsoluta = 'http://librosparatodoscr.com/miCuentoFantastico/2014/';
@@ -668,7 +669,7 @@ $(document).ready(function() {
 						$("#playerCuento").append('<source src="' + urlAbsoluta + 'audio/' + audioCuento + '.' + audioFormato +'" type="audio/' + audioFormato + '" />');
 						$("#dialog7").append('<div align="center" style="line-height:14px !important;">Este audio requiere conexión a internet.</div>');
 					} else {
-						alert('no android');
+						//alert('no android');
 						$("#playerCuento").append('<source src="audio/' + audioCuento + '.' + audioFormato + '" type="audio/' + audioFormato + '" />');
 					}
 					
