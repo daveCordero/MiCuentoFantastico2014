@@ -198,6 +198,7 @@ $(document).ready(function() {
 		if (window.orientation == 0){
 			//sí scroll y rebote iOS
 			document.ontouchmove = function(e){ return true; }
+			$("body").css({"height":"100%"});
 		}
 		if (window.orientation == 90){
 			//no scroll ni rebote iOS
