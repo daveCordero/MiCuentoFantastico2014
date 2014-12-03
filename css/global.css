@@ -74,16 +74,18 @@ html {
 
 body {
 	/*background-color:#F3F0E5;
-	background-repeat:repeat;
-	background-position:center;*/
-	background-repeat:no-repeat;
+	
 	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
 	
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	background-size:cover;
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/post_bg.jpg', sizingMethod='scale')";
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/post_bg.jpg', sizingMethod='scale')";*/
+	
+	background-repeat:repeat;
 	
 	margin: 0px; /* for IE6 / IE7 */
 	padding:0px;
